@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ -z ${2} ]; then
+if [ -z "${2}" ]; then
        MESSAGE="Update by $(git config --get user.name)"
 else
        MESSAGE=${2}
